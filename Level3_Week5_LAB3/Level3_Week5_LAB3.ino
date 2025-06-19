@@ -31,7 +31,7 @@ void loop() {
   Val1 = digitalRead(____);
   if ( Val1 == 1)
   {
-    pos1 ++;
+    pos1 +=10;
     delay(100);
     idektep.setPWM(servo1, 0, angleToPulse(___) );
     Serial.print(" Position reading =  "); 
